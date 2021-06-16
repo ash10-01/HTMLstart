@@ -1,0 +1,16 @@
+p{
+  color: red;
+}
+a{
+  display: block;
+  color: red;
+}
+#ban{
+  color: blue;
+}
+.han{
+  color:yellow;
+}
+[target="_blank"]{
+  color:magenta;
+}
