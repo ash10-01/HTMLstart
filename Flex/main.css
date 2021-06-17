@@ -1,0 +1,21 @@
+div{
+  height: 100px;
+  width: 100px;
+  border: 2px solid yellow;
+  background-color: red;
+  margin: 5px;
+  flex:1 0 auto;
+
+}
+body{
+  display: flex;
+  border: 1px solid black;
+  }
+#deviate{
+  flex:1 1 auto;
+
+}
+
+div:hover{
+  background-color: orange;
+}

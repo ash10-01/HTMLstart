@@ -1,0 +1,17 @@
+div{
+  height: 100px;
+  width: 100px;
+  border: 2px solid yellow;
+  background-color: red;
+  margin: 5px;
+
+}
+body{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+div:hover{
+  background-color: orange;
+}
