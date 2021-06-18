@@ -1,0 +1,9 @@
+ul{
+  list-style: none;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  background-color: deepskyblue;
+}
+a{
+  padding: 1rem;
+}

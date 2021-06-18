@@ -1,0 +1,36 @@
+html,body,div{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-flow: row wrap;
+}
+div{
+  width:100%;
+  min-height: 50px;
+  text-align: center;
+}
+
+.one{
+  background-color: red;
+  padding: 20px 0;
+}
+.aside{
+  background-color: yellow;
+  width: 20%
+}
+.content{
+  background-color: lightblue;
+  width: 60%
+}
+.aside2{
+  background-color: pink;
+  width: 20%
+}
+.foot{
+  padding: 20px 0;
+background-color: lightgreen;
+}
