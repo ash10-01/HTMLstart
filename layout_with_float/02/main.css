@@ -1,0 +1,11 @@
+  div, img {
+  border: 1px solid red;
+  margin: 20px;
+
+}
+#right{
+  float: left;
+}
+div{
+  overflow: auto;
+}

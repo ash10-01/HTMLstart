@@ -1,0 +1,32 @@
+html,body{
+  padding:0;
+  margin: 0;
+}
+
+header{
+  margin:  10px;
+  height: 20px;
+  width: 100%;
+  background-color: pink;
+}
+#right{
+  float: left;
+  
+  height: 50px;
+  width: 74%;
+  background-color: green;
+}
+#left{
+  float: right;
+
+  height: 50px;
+  width: 24%;
+  background-color: yellow;
+}
+footer{
+  clear: both;
+  margin:  10px;
+  height: 20px;
+  width: 100%;
+  background-color: grey;
+}
