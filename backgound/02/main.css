@@ -1,0 +1,10 @@
+div{
+  height: 600px;
+  width:600px;
+  border: 2px solid orange;
+  background-image: url("equation2.png");
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-origin:padding-box;
+  background-position: center;
+}
