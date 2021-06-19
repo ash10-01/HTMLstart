@@ -1,0 +1,14 @@
+body{
+  border: 2px solid black
+}
+#one{
+  /* width: 200px;
+  height: 200px; */
+  background-color: green;
+  border: 2px solid black
+
+
+}
+ #two:hover{
+   fill: blue;
+ }

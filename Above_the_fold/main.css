@@ -1,0 +1,75 @@
+html,body,div,section,button,header,nav {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+section{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("wot.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+  }
+
+  header{
+    /* text-align: center; */
+    width: 100%;
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:rgba(191, 183, 158, 1);
+    height: 40px;
+    background-color:  rgba(30, 35, 38, 1);
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+h1, h2, h3, button {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(255,255,255,.5);
+  margin-bottom: 10px
+}
+h1{
+  font-size: 40px;
+}
+h3{
+  font-size: 15px;
+}
+button{
+  padding: 3px;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  border:2px solid transparent;
+  color:rgba(255,255,255,.5);
+  margin:5px;
+
+}
+button:hover{
+  border:2px solid grey;
+  border-radius: 18px
+
+}
+nav{
+  width:20%;
+  margin: 0 5px;
+}
+header nav{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+i:hover{
+  background-color: rgba(242, 191, 128, .5);
+}
