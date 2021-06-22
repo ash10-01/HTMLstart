@@ -1,0 +1,19 @@
+div{
+  height: 100px;
+  width: 100px;
+  background-color:blue;
+  border:2px solid pink;
+  position: relative;
+  animation-name: changepos;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate-reverse;
+  animation-timing-function: linear;
+  animation-play-state: running;
+}
+@keyframes changepos{
+  0%{top:0;left:0;}
+  100%{ top:400px;left:400px;}
+
+}

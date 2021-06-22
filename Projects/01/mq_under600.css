@@ -1,0 +1,45 @@
+nav.mobile{
+  display: none;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+h1{
+  width: 100%;
+  text-align: center;
+}
+main{
+  display: flex;
+  flex-flow:column nowrap;
+  align-items: center;
+}
+.imagesec{
+  margin: 10px;
+  width:90vw;
+  height: 40vh;
+  /* temp */
+ border: 1px solid grey;
+}
+.mobilenave{
+  width: 100%;
+  display: flex;
+  flex-flow:column nowrap;
+  background-color: silver;
+}
+a{
+ width:100%;
+ min-height:10vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+nav a:hover{
+ background-color: grey;
+}
+.A{
+  height: 40vh;
+  width: 90vw;
+}

@@ -1,0 +1,33 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  /* T */
+}
+.mobilenave{
+  display: none;
+}
+nav{
+  width: 40%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ nav a{
+  width: 25%;
+  min-height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ nav :hover{
+  background-color: grey;
+}
+.imagesec{
+  margin: 10px;
+  width:20vw;
+  height: 20vh;
+  /* temp */
+border: 1px solid grey;
+}

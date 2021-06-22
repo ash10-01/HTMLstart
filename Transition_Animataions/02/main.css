@@ -1,0 +1,22 @@
+div{
+  height: 100vh;
+  width: 100vw;
+  /* background-color:blue; */
+  border:2px solid pink;
+  font-size: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: fontchange;
+  animation-duration: 5s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-timing-function: ease-in;
+}
+
+@keyframes fontchange{
+  0%{font-size: 1vw;}
+  100%{font-size: 10vw;}
+
+}

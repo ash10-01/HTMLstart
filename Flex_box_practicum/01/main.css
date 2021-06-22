@@ -1,0 +1,45 @@
+main, html, div,body, section{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+section{
+  min-height: 50px;
+  width:40vw;
+  display: flex;
+}
+
+div{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+#middle{
+  flex-grow: 2;
+  background-color: white;
+}
+
+.ben{
+  flex-grow: 1;
+  background-color: lightgrey;
+  color:white;
+}
+
+div.ben:hover{
+  background-color: grey;
+}
+
+.a1{
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  }
+
+  .a2{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }

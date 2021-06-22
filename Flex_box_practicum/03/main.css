@@ -1,0 +1,53 @@
+main, html, div,body, section,header,ul,li{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+header{
+  position: fixed;
+  top:0;
+  height: 10vh;
+  /* temp */
+  background-color: grey;
+}
+nav{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  display: flex;
+  flex-flow:row nowrap;
+  /* justify-content: space-around; */
+  /* align-itemsflex-start; */
+}
+li{
+  width:8vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main{
+  position: absolute;
+  top:10vh;
+  height: 90vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vw;
+  color:red;
+  background-image: url("Icon.svg" );
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+
+}
+li:hover{
+  background-color: darkgrey;
+}
