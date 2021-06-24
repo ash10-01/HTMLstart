@@ -1,0 +1,19 @@
+/* sectin sectionoftheidexpage */
+.saboutme{
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  min-height: 50vh;
+  width: 50vw;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(255,255,255,.7);
+  /* temp */
+  border: 1px solid red;
+    /* temp */
+/* articlesectionoftheindexpage */
+}
+.aaboutme{
+
+}

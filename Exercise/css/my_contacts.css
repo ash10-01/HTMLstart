@@ -1,0 +1,53 @@
+body{
+  background-image: url("../images/backgound2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+
+#contact{
+  width: 90%;
+  margin-left: 5%;
+  margin-right:5%;
+  margin-top: 10%;
+}
+.smy_contacts{
+  display: flex;
+  flex-flow:column nowrap;
+  font-size: 20px;
+  background-color: rgba(216, 216, 216, 1);
+}
+
+.h1my_contacts
+{
+  height: 10vh;
+  flex-grow: 1;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom:  1px dashed black;
+  /* temp */
+  /* border: 1px solid hotpink; */
+}
+ul{
+  flex-grow: 4;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  /* temp */
+  /* border: 1px solid hotpink; */
+}
+li{
+  flex-grow: 1;
+  width:100%;
+
+  display: flex;
+}
+i{
+  text-align: center;
+  width: 40%;
+}

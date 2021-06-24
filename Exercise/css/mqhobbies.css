@@ -1,0 +1,21 @@
+
+div{
+  display: none;
+}
+
+.smy_hobbies{
+  /* min-height: 50vh; */
+  width: 80vw;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: transparent;
+}
+.cards{
+  flex-grow: 1;
+  height:20vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+button{
+  border-radius: 10px;
+}

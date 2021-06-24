@@ -1,0 +1,38 @@
+/* Cssfortheprojectpage */
+body{
+  background-image: url("../images/backgound2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+  #work{
+  margin-top: 100px;
+  width: 100%;
+}
+
+.smy_work{
+  display: flex;
+  flex-flow:column nowrap;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(216, 216, 216, 1);
+}
+.amy_work{
+  flex-grow: 1;
+  width:100%;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding:  3px;
+  border: 1px solid black;
+}
+h1{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+h2{
+  text-align: center;
+  font-style: italic;
+}

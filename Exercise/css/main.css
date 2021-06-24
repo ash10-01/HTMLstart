@@ -1,0 +1,92 @@
+/* reset */
+html,body,div,header,h1,h2,h3,a,footer,main,section,article,ul,li,button{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+ul{
+  list-style: none;
+  }
+li{
+    text-decoration: none;
+  }
+a{
+  text-decoration: none;
+}
+h1,h2,h3,h4{
+  font-size: 20px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+/* header */
+/* ---------------------------- */
+header{
+position: fixed;
+top:0;
+width: 100%;
+height: 50px;
+background-color:rgba(12, 12, 12, .2);
+display: flex;
+align-items: center;
+/* temp */
+/* border: 1px solid red; */
+}
+nav{
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.ahead{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  /* temp */
+  border-top: 0;
+  border-bottom: 2px;
+  border-left: 1px;
+  border-right: 1px;
+  border-style: solid;
+  /* temp */
+  border-color: rgba(140, 140, 140, 1);
+}
+a.ahead:hover{
+  background-color: rgba(38, 38, 38, 1);
+  transition-property: background-color;
+  transition-delay: .2s;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+}
+#brl1{
+  border-left: 0px;
+}
+#brl2{
+  border-right: 0px;
+}
+/* ----------------------------------------- */
+/* main atf*/
+#atf{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/backgound2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* temp */
+  /* border: 1px solid red; */
+}
+/* ------------------------------------------------------------ */
+/* footerhiding */
+footer.whentodisp
+{
+  display: none;
+}
